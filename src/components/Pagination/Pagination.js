@@ -8,11 +8,11 @@ const Pagination = ({info, pageNumber, setPageNumber }) => {
   className="pagination justify-content-center gap-4 my-4"
   nextLabel={<span style={{ color: '#ffffff' }}>Next</span>}
   previousLabel={<span style={{ color: '#ffffff' }}>Prev</span>}
-  previousClassName="btn btn-primary fs-5 prev"
-  nextClassName="btn btn-primary fs-5 next"
-  pageClassName="page-item"
-  pageLinkClassName="page-link"
-  activeClassName="active"
+  previousclassName="btn btn-primary fs-5 prev"
+  nextclassName="btn btn-primary fs-5 next"
+  pageclassName="page-item"
+  pageLinkclassName="page-link"
+  activeclassName="active"
   onPageChange={(data)=>{setPageNumber(data.selected + 1)}}
   pageCount={info?.pages} />;
 };
